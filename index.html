@@ -1,38 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-    <title> AluraPlus </title>
-    <meta charset="UTF_8">
-    <meta="VIEWPORT"Content="width=device_initial_scale=1">
-    <link rel="stylesheet" href="style.css>"
-    <link rel="preconnet href="https://fonts.googleapis.com">
-<link rel="https://fonts gstatic.com"crossorigin>
-<link rel="https://fonts.googleapis.com/css2?family=inteR:wght@400;700&display=swap"rel=stylesheet">
+    <meta charset="UTF-8">
+    <title>Barbearia Alura</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<section class="principal container">
-<div class="container_caixa">
-    <h1 class="container_titulo">Com o combo, você pode aproveitar o aluralíngua por um preço único.</h1>
-<img src="img/Combo.png"alt=o combo + e a junção do alura lingua" class="container_imagem">
-<a href="wwww.alura.com.br" class="container_botão"> assine por 12x de r$120,00 *</a>
-<p class="container_aviso">* preço de variar caso a assinatura e ja feita em outros planos.</p>
-<div>
-</section>
-<section class="container secundario">
-    <img src="img/Plataformas.png"alt="monitor e um celular com a aluraPlus aberta"class="secundário_imagem">
-    <div class="container_descrição">
-        <h2 class="descrição_texto">aproveite a tela da tv ou assista no tablet, laptop, celular e outros aparelhos. Nosso selecão de cursos não para de crescer.<p>
-   </div>
-</section>
-<section class="container_secundário">
-    <div class="container_descrição">
-        <p class="descrição_texto">Só o combo+ oferece alura e alura língua juntos para você ter acesso a diversos cursos de diversas áreas da tecnologia e aprender Englês ou Espanhol, onde e como quizer.
-            </p>
-        <a href="www.alura.com.br" class="container_botão secundário"container> assine o combo+</a>
-     </div>
- <img src="img/Notebook.png"alt-="tela do alura+ e alura lingua" class="secundário_ imagem">
-    </section>
-    <section class="container secundário">
-        <img src=""alt="notebook com a pagina do curso HTML 5 e CSS3 da alura aberta" class="secundário_imagem">
-        <div class="container_descrição">
 
+<body>
+    <!-- Cabeçalho -->
+    <header class="header" aria-label="Cabeçalho da Barbearia Alura">
+        <h1 class="header__title">Barbearia Alura</h1>
+    </header>
+
+    <!-- Seção Banner -->
+    <section class="banner">
+        <img id="banner" src="banner.jpg" alt="Banner principal da Barbearia Alura" class="banner__image" loading="lazy">
+    </section>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <!-- Seção Sobre -->
+        <section class="about" aria-labelledby="about__title">
+            <div class="about__content">
+                <h2 id="about_title" class="about_title">Sobre a Barbearia Alura</h2>
+                <p class="about__text">Localizada no coração da cidade, a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+                <p class="about__mission"><em>Nossa missão é <strong>proporcionar autoestima e qualidade de vida aos clientes</strong>.</em></p>
+                <p class="about__text">Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+            </div>
+        </section>
+
+        <!-- Seção Benefícios -->
+        <section class="benefits" aria-labelledby="benefits__title">
+            <h3 id="benefits_title" class="benefits_title">Benefícios</h3>
+            <ul class="benefits__list" aria-label="Lista de benefícios">
+                <li class="benefits__item">Atendimento aos Clientes</li>
+                <li class="benefits__item">Espaço Diferenciado</li>
+                <li class="benefits__item">Localização Privilegiada</li>
+                <li class="benefits__item">Profissionais Qualificados</li>
+            </ul>
+            <figure class="benefits__image-container">
+                <img src="beneficios.jpg" class="benefits__image" alt="Profissional atendendo cliente na Barbearia Alura, destacando o ambiente" loading="lazy">
+                <figcaption class="benefits__caption">Ambiente confortável e atendimento de excelência na Barbearia Alura</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer" aria-label="Rodapé da Barbearia Alura">
+        <p class="footer__text">&copy; 2024 Barbearia Alura - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
